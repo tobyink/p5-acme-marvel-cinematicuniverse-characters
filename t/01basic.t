@@ -38,7 +38,7 @@ is( "$ironman", 'Tony Stark', 'Tony Stark stringifies correctly' );
 
 is( $ironman + 0, 33, 'Tony Start numifies correctly' );
 
-my ( $cap ) = $module->find(qr/Steve/);
+my $cap = $module->find(qr/Steve/);
 
 ok( $ironman > $cap, 'Iron Man > Captain America' );
 
