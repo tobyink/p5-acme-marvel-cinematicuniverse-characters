@@ -4,7 +4,7 @@
 
 =head1 PURPOSE
 
-Test that Acme::Marvel::CinematicUniverse::Characters compiles.
+Test that Acme::Marvel::CinematicUniverse::Characters compiles and works.
 
 =head1 AUTHOR
 
@@ -24,7 +24,21 @@ use strict;
 use warnings;
 use Test::More;
 
-use_ok('Acme::Marvel::CinematicUniverse::Characters');
+my $module = 'Acme::Marvel::CinematicUniverse::Characters';
+
+use_ok($module);
+
+is scalar($module->characters), 6, 'Six characters';
+
+my ( $ironman ) = $module->find('Tony');
+
+is( "$ironman", 'Tony Stark', 'Tony Stark stringifies correctly' );
+
+is( $ironman + 0, 33, 'Tony Start numifies correctly' );
+
+my ( $cap ) = $module->find(qr/Steve/);
+
+ok( $ironman > $cap, 'Iron Man > Captain America' );
 
 done_testing;
 
