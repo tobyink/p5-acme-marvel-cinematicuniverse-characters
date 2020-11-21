@@ -32,6 +32,8 @@ is scalar($module->characters), 6, 'Six characters';
 
 my ( $ironman ) = $module->find('Tony');
 
+ok( $ironman, 'Found Tony Stark' );
+
 is( "$ironman", 'Tony Stark', 'Tony Stark stringifies correctly' );
 
 is( $ironman + 0, 33, 'Tony Start numifies correctly' );
