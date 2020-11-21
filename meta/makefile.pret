@@ -3,6 +3,9 @@
 @prefix : <http://ontologi.es/doap-deps#>.
 
 `Acme-Marvel-CinematicUniverse-Characters`
+	:runtime-requirement    [ :on "perl 5.008"^^:CpanId ];
+	:runtime-requirement    [ :on "Module::Pluggable"^^:CpanId ];
+	:runtime-requirement    [ :on "Class::Tiny"^^:CpanId ];
 	:test-requirement       [ :on "Test::More 0.96"^^:CpanId ];
 	:develop-recommendation [ :on "Dist::Inkt 0.001"^^:CpanId ];
 	.
