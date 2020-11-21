@@ -63,7 +63,7 @@ of objects on CPAN.
 It uses characters from the Marvel Cinematic Universe (Earth-199999) rather
 than the comic book universe, though power grid data is taken from the
 Marvel wiki, and mostly based on the comic books. It currently only includes
-the six core characters from I<< Marvel's The Avengers >> (1992), also known
+the six core characters from I<< Marvel's The Avengers >> (2012), also known
 as I<< Avengers Assemble >> in the UK and Ireland.
 
 =head2 Methods
