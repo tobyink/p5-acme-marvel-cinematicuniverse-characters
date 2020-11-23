@@ -10,14 +10,14 @@ our $VERSION   = '0.002';
 use Acme::Marvel::CinematicUniverse::Character;
 
 my $bruce = Acme::Marvel::CinematicUniverse::Character->new(
-	real_name           => 'Bruce Banner',
-	hero_name           => 'The Hulk',
-	intelligence        => 6,
-	strength            => 7,
-	speed               => 3,
-	durability          => 7,
-	energy_projection   => 5,
-	fighting_ability    => 4,
+	real_name         => 'Bruce Banner',
+	hero_name         => 'The Hulk',
+	intelligence      => 6,
+	strength          => 7,
+	speed             => 3,
+	durability        => 7,
+	energy_projection => 5,
+	fighting_ability  => 4,
 );
 
 sub init {
@@ -26,4 +26,3 @@ sub init {
 }
 
 1;
-

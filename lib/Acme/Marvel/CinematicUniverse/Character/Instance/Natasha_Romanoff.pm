@@ -10,14 +10,14 @@ our $VERSION   = '0.002';
 use Acme::Marvel::CinematicUniverse::Character;
 
 my $nat = Acme::Marvel::CinematicUniverse::Character->new(
-	real_name           => 'Natasha Romanoff',
-	hero_name           => 'Black Widow',
-	intelligence        => 3,
-	strength            => 3,
-	speed               => 2,
-	durability          => 3,
-	energy_projection   => 3,
-	fighting_ability    => 6,
+	real_name         => 'Natasha Romanoff',
+	hero_name         => 'Black Widow',
+	intelligence      => 3,
+	strength          => 3,
+	speed             => 2,
+	durability        => 3,
+	energy_projection => 3,
+	fighting_ability  => 6,
 );
 
 sub init {
@@ -26,4 +26,3 @@ sub init {
 }
 
 1;
-

@@ -10,14 +10,14 @@ our $VERSION   = '0.002';
 use Acme::Marvel::CinematicUniverse::Character;
 
 my $thor = Acme::Marvel::CinematicUniverse::Character->new(
-	real_name           => 'Thor Odinson',
-	hero_name           => 'Thor',
-	intelligence        => 2,
-	strength            => 7,
-	speed               => 7,
-	durability          => 6,
-	energy_projection   => 6,
-	fighting_ability    => 4,
+	real_name         => 'Thor Odinson',
+	hero_name         => 'Thor',
+	intelligence      => 2,
+	strength          => 7,
+	speed             => 7,
+	durability        => 6,
+	energy_projection => 6,
+	fighting_ability  => 4,
 );
 
 sub init {
@@ -26,4 +26,3 @@ sub init {
 }
 
 1;
-
