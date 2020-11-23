@@ -5,7 +5,7 @@
 [![Coveralls](https://coveralls.io/repos/tobyink/p5-acme-marvel-cinematicuniverse-characters/badge.svg?branch=master&amp;service=github)](https://coveralls.io/github/tobyink/p5-acme-marvel-cinematicuniverse-characters)
 [![Codecov](https://codecov.io/gh/tobyink/p5-acme-marvel-cinematicuniverse-characters/branch/master/graph/badge.svg)](https://codecov.io/gh/tobyink/p5-acme-marvel-cinematicuniverse-characters)
 
-Perl 5 distribution Type-Tiny; see [homepage](https://metacpan.org/release/Acme-Marvel-CinematicUniverse-Characters)
+Perl 5 distribution Acme-Marvel-CinematicUniverse-Characters; see [homepage](https://metacpan.org/release/Acme-Marvel-CinematicUniverse-Characters)
 for download, issue tracker, and more info.
 
 ## Issues
