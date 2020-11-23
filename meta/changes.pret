@@ -7,6 +7,7 @@
 `Acme-Marvel-CinematicUniverse-Characters 0.002 cpan:TOBYINK`
 	issued  2020-11-23;
 	changeset [
-		item "Correct year of movie."^^Documentation;
+	item "Correct year of movie."^^Documentation;
+	item "Include repo link."^^Packaging;
 	].
 
