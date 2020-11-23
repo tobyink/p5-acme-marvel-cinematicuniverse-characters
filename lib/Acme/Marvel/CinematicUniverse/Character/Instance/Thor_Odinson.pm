@@ -5,7 +5,7 @@ use warnings;
 package Acme::Marvel::CinematicUniverse::Character::Instance::Thor_Odinson;
 
 our $AUTHORITY = 'cpan:TOBYINK';
-our $VERSION   = '0.001';
+our $VERSION   = '0.002';
 
 use Acme::Marvel::CinematicUniverse::Character;
 

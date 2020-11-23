@@ -5,7 +5,7 @@ use warnings;
 package Acme::Marvel::CinematicUniverse::Character;
 
 our $AUTHORITY = 'cpan:TOBYINK';
-our $VERSION   = '0.001';
+our $VERSION   = '0.002';
 
 use Class::Tiny qw(
 	real_name

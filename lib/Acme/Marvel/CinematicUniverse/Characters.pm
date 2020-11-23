@@ -5,7 +5,7 @@ use warnings;
 package Acme::Marvel::CinematicUniverse::Characters;
 
 our $AUTHORITY = 'cpan:TOBYINK';
-our $VERSION   = '0.001';
+our $VERSION   = '0.002';
 
 use Module::Pluggable (
 	search_path => [ 'Acme::Marvel::CinematicUniverse::Character::Instance' ],
