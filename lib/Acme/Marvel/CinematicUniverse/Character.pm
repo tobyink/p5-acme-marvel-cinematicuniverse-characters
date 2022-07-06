@@ -7,16 +7,7 @@ package Acme::Marvel::CinematicUniverse::Character;
 our $AUTHORITY = 'cpan:TOBYINK';
 our $VERSION   = '0.002';
 
-use Class::Tiny qw(
-	real_name
-	hero_name
-	intelligence
-	strength
-	speed
-	durability
-	energy_projection
-	fighting_ability
-);
+use Acme::Marvel::CinematicUniverse::Mite qw( param -bool );
 
 use overload (
 	q[bool]  => sub { !!1 },
@@ -24,6 +15,15 @@ use overload (
 	q[0+]    => sub { shift->power },
 	fallback => !!1,
 );
+
+param real_name          => ( isa => 'Str' );
+param hero_name          => ( isa => 'Str' );
+param intelligence       => ( isa => 'PositiveInt' );
+param strength           => ( isa => 'PositiveInt' );
+param speed              => ( isa => 'PositiveInt' );
+param durability         => ( isa => 'PositiveInt' );
+param energy_projection  => ( isa => 'PositiveInt' );
+param fighting_ability   => ( isa => 'PositiveInt' );
 
 sub power {
 	my $self = shift;

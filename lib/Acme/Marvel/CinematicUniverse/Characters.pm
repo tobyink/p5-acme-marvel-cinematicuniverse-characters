@@ -8,7 +8,7 @@ our $AUTHORITY = 'cpan:TOBYINK';
 our $VERSION   = '0.002';
 
 use Module::Pluggable (
-	search_path => ['Acme::Marvel::CinematicUniverse::Character::Instance'],
+	search_path => [ 'Acme::Marvel::CinematicUniverse::Character::Instance' ],
 	sub_name    => 'instance_modules',
 	require     => 1,
 );
@@ -35,7 +35,9 @@ sub find {
 	wantarray ? @found : $found[0];
 }
 
-$_->init( __PACKAGE__ ) for __PACKAGE__->instance_modules;
+unless ( $ENV{MITE_COMPILE} ) {
+	$_->init( __PACKAGE__ ) for __PACKAGE__->instance_modules;
+}
 
 1;
 
