@@ -7,7 +7,13 @@
 `Acme-Marvel-CinematicUniverse-Characters 0.002 cpan:TOBYINK`
 	issued  2020-11-23;
 	changeset [
-	item "Correct year of movie."^^Documentation;
-	item "Include repo link."^^Packaging;
+		item "Correct year of movie."^^Documentation;
+		item "Include repo link."^^Packaging;
+	].
+
+`Acme-Marvel-CinematicUniverse-Characters 0.003 cpan:TOBYINK`
+	issued  2020-11-23;
+	changeset [
+		item "Port from Class::Tiny to Mite."^^Change;
 	].
 
